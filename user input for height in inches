@@ -1,0 +1,5 @@
+#height get from user and return in output both in 'cm'& 'inches'
+height = float(input("what is your height: "))
+height_inches = "{:.2f}".format(height/2.54)
+print("you are "+str(height)+" cm")
+print("you are "+height_inches + "inches tall")
